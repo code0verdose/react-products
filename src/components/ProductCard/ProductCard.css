@@ -1,0 +1,72 @@
+.ProductCard {
+  width: 272px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.ProductCard__img-wrapper {
+  position: relative;
+  height: 160px;
+  background: #b8b8b8;
+}
+
+.ProductCard__img {
+  background: #b8b8b8;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card-like {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.card-discount {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+.ProductCard__main {
+  padding: 8px;
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__price-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__price-types {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.gray {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #bfbfbf;
+}
+
+.main__description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+
+.main__rate {
+  margin-bottom: 8px;
+  margin-top: auto;
+}

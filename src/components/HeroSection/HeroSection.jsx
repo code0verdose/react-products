@@ -1,31 +1,52 @@
 import React from "react";
 import { Section } from "../../layout/Section/Section";
 import { Container } from "../../layout/Container/Container";
-import {SectionTitle} from '../../layout/SectionTitle/SectionTitle'
+import { SectionTitle } from "../../layout/SectionTitle/SectionTitle";
+import { ProductCard } from "../ProductCard/ProductCard";
+import imgSmall from './assets/image.webp'
+import imgLarge from './assets/image@2x.webp'
 
 export const HeroSection = () => {
   return (
     <Section>
       <Container>
         <SectionTitle text="HeroSection" />
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt rem
-          maxime quia corporis ea natus omnis repellendus cum assumenda
-          voluptatum, repudiandae nobis fuga, dicta fugiat voluptatibus, est in
-          incidunt. Similique facilis quaerat nihil pariatur unde veritatis amet
-          ipsam eos, tempore quae mollitiant earum deserunt obcaecati aliquam
-          veniam! Sed quos vero sapiente voluptate nostrum veritatis cum atque
-          ipsam iure recusandae, iste, ipsa velit repudiandae! Illum ut,
-          voluptatum necessitatibus asperiores animi, consequuntur totam cumque
-          ab corporis fugiat error eius eveniet, qui unde facilis dolorem eum
-          dolores vero odit. Perferendis veniam velit voluptatibus. Autem sunt
-          delectus exercitationem maxime! Corrupti laborum ea autem deserunt
-          expedita sapiente, officiis distinctio quaerat voluptatem aut atque
-          vero explicabo veniam rerum nam excepturi illo pariatur molestias
-          incidunt iusto voluptas modi quod eveniet rem. Facilis repudiandae sit
-          perspiciatis laboriosam voluptatibus aut totam amet obcaecati culpa
-          consequatur.{" "}
-        </p>
+        <ProductCard
+          priceCountCard="44,50"
+          priceCountBasic="50,50"
+          currency="₽"
+          typeBasic="basic"
+          typeCard="card"
+          imgSmall={imgSmall}
+          imgLarge={imgLarge}
+          discount={50}
+          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!"
+          rate={4}
+        />
+        <ProductCard
+          priceCountCard="40,50"
+          priceCountBasic="10,50"
+          currency="₽"
+          typeBasic="basic"
+          typeCard="card"
+          imgSmall={imgSmall}
+          imgLarge={imgLarge}
+          discount={90}
+          description="Lorem ipsum "
+          rate={5}
+        />
+        <ProductCard
+          priceCountCard="64,50"
+          priceCountBasic="80,50"
+          currency="$"
+          typeBasic="basic"
+          typeCard="card"
+          imgSmall={imgSmall}
+          imgLarge={imgLarge}
+          discount={10}
+          description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!"
+          rate={1}
+        />
       </Container>
     </Section>
   );
