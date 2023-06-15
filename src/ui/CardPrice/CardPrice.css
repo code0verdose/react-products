@@ -1,0 +1,17 @@
+.card {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+}
+
+.basic {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #606060;
+}
+
+.CardPrice__value {
+  margin-right: 4px;
+}

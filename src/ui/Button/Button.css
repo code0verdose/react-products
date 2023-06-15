@@ -1,0 +1,14 @@
+.Button {
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  color: inherit;
+  height: 40px;
+  width: 100%;
+  background: #ff6633;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
