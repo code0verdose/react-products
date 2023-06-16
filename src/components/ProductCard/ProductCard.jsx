@@ -12,13 +12,12 @@ export const ProductCard = (props) => {
     imgLarge,
     imgAlt,
     discount,
-    typeCard,
     priceCountCard,
     currency,
-    typeBasic,
     priceCountBasic,
     description,
     rate,
+    canBuy = true,
   } = props;
 
   return (
@@ -37,12 +36,12 @@ export const ProductCard = (props) => {
           <CardPrice
             priceCount={priceCountCard}
             currency={currency}
-            type={typeCard}
+            type={'card'}
           />
           <CardPrice
             priceCount={priceCountBasic}
             currency={currency}
-            type={typeBasic}
+            type={'basic'}
           />
         </div>
         <div className="main__price-types">
@@ -51,7 +50,10 @@ export const ProductCard = (props) => {
         </div>
         <p className="main__description">{description}</p>
         <CardRate className="main__rate" rate={rate} />
-        <Button>В корзину</Button>
+        {/* {canBuy && <Button>В корзину</Button>} */}
+        <Button isDisabled={!canBuy ? true : false}>
+          {canBuy ? "В корзину" : "Товар закончился!"}
+        </Button>
       </div>
     </div>
   );

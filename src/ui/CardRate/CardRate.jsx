@@ -14,8 +14,6 @@ export const CardRate = ({ rate = 3, className }) => {
     }
   }
 
-  console.log(starArr);
-
   return (
     <div className={className}>
       {starArr.map((el, i) => (
