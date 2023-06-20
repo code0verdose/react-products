@@ -4,15 +4,16 @@
   background: #ffffff;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  max-height: 349px;
 }
 .ProductCard__img-wrapper {
   position: relative;
   height: 160px;
-  background: #b8b8b8;
+  background: #ffffff;
 }
 
 .ProductCard__img {
-  background: #b8b8b8;
+  background: #ffffff;
   display: block;
   width: 100%;
   height: auto;
