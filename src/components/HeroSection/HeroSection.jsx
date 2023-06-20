@@ -12,13 +12,13 @@ import { optionsData } from "./data/optionsData";
 import { ProductOption } from "../../ui/ProductOption/ProductOption";
 
 export const HeroSection = () => {
-  const likedId = JSON.parse(localStorage.getItem("likedId")) ?? [];
+  const likedStorageId = JSON.parse(localStorage.getItem("likedId")) ?? [];
 
   const [data, setData] = useState([]);
   const [selectValue, setSelectValue] = useState("");
-  const [likedProducts, setLikedProducts] = useState(likedId);
+  const [likedProductsId, setLikedProductsId] = useState(likedStorageId);
 
-  localStorage.setItem("likedId", JSON.stringify(likedProducts));
+  localStorage.setItem("likedId", JSON.stringify(likedProductsId));
 
   useEffect(() => {
     const res = fetch("http://185.40.7.226:7000/api/products/all");
@@ -36,11 +36,11 @@ export const HeroSection = () => {
   };
 
   const likeProduct = (id) => {
-    setLikedProducts([...likedProducts, id]);
+    setLikedProductsId([...likedProductsId, id]);
   };
 
   const dislikeProduct = (id) => {
-    setLikedProducts(likedProducts.filter((el) => el !== id));
+    setLikedProductsId(likedProductsId.filter((el) => el !== id));
   };
 
   const options = optionsData.map((el) => (
@@ -52,7 +52,7 @@ export const HeroSection = () => {
       key={el.id}
       likeProduct={likeProduct}
       dislikeProduct={dislikeProduct}
-      isLiked={likedProducts.includes(el.id)}
+      isLiked={likedProductsId.includes(el.id)}
       canBuy={el.qty > 0}
       {...el}
     />
@@ -61,7 +61,7 @@ export const HeroSection = () => {
   const productsInStock = productList.filter((el) => el.props.canBuy);
 
   const productsFavorites = productList.filter((el) =>
-    likedProducts.includes(el.props.id)
+    likedProductsId.includes(el.props.id)
   );
 
   const productsRender = () => {
