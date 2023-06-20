@@ -1,5 +1,5 @@
 import React from "react";
 
-export const Section = ({ children }) => {
-  return <section>{children}</section>;
+export const Section = ({ children, className }) => {
+  return <section className={className}>{children}</section>;
 };

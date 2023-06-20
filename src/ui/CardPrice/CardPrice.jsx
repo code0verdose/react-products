@@ -1,15 +1,14 @@
 import React from "react";
-import './CardPrice.css'
+import "./CardPrice.css";
 
 export const CardPrice = ({ priceCount, currency, type }) => {
-
   const innerClassName = ["CardPrice__value"];
 
-  if (type === 'card') {
-    innerClassName.push('card')
+  if (type === "card") {
+    innerClassName.push("card");
   }
-  if (type === 'basic') {
-    innerClassName.push('basic')
+  if (type === "basic") {
+    innerClassName.push("basic");
   }
 
   return (

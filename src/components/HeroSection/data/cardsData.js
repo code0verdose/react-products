@@ -1,4 +1,4 @@
-import imgSmall from '../assets/image.webp'
+import imgSmall from "../assets/image.webp";
 import imgLarge from "../assets/image@2x.webp";
 //Поправить импорты для картинок!!!
 
@@ -14,7 +14,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 4,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: 70,
   },
   {
@@ -28,7 +28,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 3,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: 0,
   },
   {
@@ -42,7 +42,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 4,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: 0,
   },
   {
@@ -56,7 +56,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 2,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: 30,
   },
   {
@@ -70,7 +70,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -84,7 +84,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -98,7 +98,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -112,7 +112,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -126,7 +126,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -140,7 +140,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -154,7 +154,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -168,7 +168,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -182,7 +182,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -196,7 +196,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -210,7 +210,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -224,7 +224,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: -19,
   },
   {
@@ -238,7 +238,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita itaque sit saepe praesentium minima repudiandae accusamus voluptate officiis vero. Tempore!",
     rate: 5,
-    imgAlt: 'Picture alt',
+    imgAlt: "Picture alt",
     qty: 10,
   },
 ];

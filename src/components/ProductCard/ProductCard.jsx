@@ -17,7 +17,11 @@ export const ProductCard = (props) => {
     priceCountBasic,
     description,
     rate,
-    canBuy = true,
+    canBuy = false,
+    likeProduct,
+    dislikeProduct,
+    isLiked,
+    id,
   } = props;
 
   return (
@@ -28,7 +32,13 @@ export const ProductCard = (props) => {
           alt={imgAlt}
           className="ProductCard__img"
         />
-        <CardLike className="card-like" />
+        <CardLike
+          id={id}
+          isLiked={isLiked}
+          dislikeProduct={dislikeProduct}
+          likeProduct={likeProduct}
+          className="card-like"
+        />
         <Discount discount={discount} className="card-discount" />
       </div>
       <div className="ProductCard__main">
@@ -36,12 +46,12 @@ export const ProductCard = (props) => {
           <CardPrice
             priceCount={priceCountCard}
             currency={currency}
-            type={'card'}
+            type={"card"}
           />
           <CardPrice
             priceCount={priceCountBasic}
             currency={currency}
-            type={'basic'}
+            type={"basic"}
           />
         </div>
         <div className="main__price-types">

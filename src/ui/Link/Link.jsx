@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
-export const Link = ({children, href, title}) => {
+export const Link = ({ children, href, title }) => {
   return (
-    <a title={title} href={href}>{ children }</a>
-  )
-}
+    <a title={title} href={href}>
+      {children}
+    </a>
+  );
+};
