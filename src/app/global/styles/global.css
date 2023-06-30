@@ -27,3 +27,8 @@ code {
 main {
   flex-grow: 1;
 }
+
+input:disabled, button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
